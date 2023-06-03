@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+    <meta name="descripion" content="اقوى عبرات الجوكر"/>
+    <title>Al joker</title>
+ <link rel="stylesheet" href="fott.css">
+ 
+   <script src="script inde.js"></script>
+   <script src="scr .php"> </script>
+    </head>
+    <body class="" id="bod">
+    <header>
+         
+       <div class="container">
+          <li id="home" onclick="locin()">HOME</li> 
+          <li onclick="locinab()">Abute</li>
+          <li id="minuo">Menu</li>
+       </div>
+      <h1> <s>Iphone</s> 13 Pro</h1>
+    </header> 
+         
+        <div class="hom" onclick="cilse()">
+            <div class="cont">
+                
+               
+            </div>
+            <div id="tex">
+               <h2>Iphone 13 Pro Max</h2> 
+               <br>
+               <p>Fire ❤️‍🔥</p>
+               <br>
+               <div class="lis">
+                   <li>المعالج: سداسي النواة Apple A15 Bionic تكنولوجيا 5 نانو</li>
+               <li>التخزين / الرام: 128/256/512/1000 جيجا مع 6 جيجا رام</li>
+               <li>الكاميرا: خلفية رباعية 12+12+12+TOF 3D / امامية 12+SL 3D</li>
+               <li>الشاشة: 6.7 بوصة بدقة 1284x2774 بها نوتش كبير</li>
+               <li>نظام التشغيل: IOS 15</li>
+               <li>البطارية: 4373 مللي أمبير</li>
+               
+               
+               </div>
+            </div>
+           
+   <div class="sli">
+ 
+   <img id="imga" src="2504903.png" alt="">
+   <br>
+   <div id="ddv">
+       <img id="imgv" onclick="terh(this.src);col('#ff4055')" src="189664.png" alt="">
+   <section id="sec" class="">
+       <img onclick="terh(this.src);col('#f8ff80')" src="395630.png" alt="">
+       
+   <img onclick="terh(this.src);col('#00d5ff')" src="553416.png" alt="">
+   <br>
+   <img onclick="terh(this.src);col('#31ff15')" src="733547.png" alt="">
+   <img onclick="terh(this.src);col('#31ff15')" src="0.png" alt="">
+   </section>
+      </div> 
+   
+   
+   </div>
+       
+       
+       
+   
+            
+        </div>
+       <img src="6360268.png" id="uu" alt=""></img> 
+    <!--    <ul>
+           <li class="" id="mm">Menu</li>
+       </ul>
+        --> 
+        <aside class="">
+       
+           <h2 id="ht">Welcome By
+               <s id="df">Menu °° </s></h2>
+               <br>
+              <div class="" id="im">
+        
+      <li class="" id="vim">
+           
+       </li>
+   </div>
+               <br>
+                <div id="sp">
+         <li id="spp"></li>
+         <li id="amm"></li>
+         <li id="ssp"></li>
+     </div>
+            
+                
+                
+               
+                
+               
+                
+           <div id="svp"></div>
+            
+                <br>
+                
+       <section>
+           <ul>
+                
+    
+    
+                              
+    <br>
+    <h3>Siting🔧</h3>
+    <br>
+   <li class="" id="gartd"><a href="https://www.facebook.com/ramy.emad.12914">Facebook</a></li>
+    <li class="" id="gartd" onclick="locinab()">About</li>
+ 
+ 
+ 
+   
+              
+              
+               
+               
+           </ul>
+           <br>
+       </section>
+       <br>
+       <br>
+        </aside>
+   
+       <script>
+           
+           alert("Welcome To My Web ☺️");
+           
+          function locin() {
+    let home = document.getElementById("home");
+    location.href = "index.html";
+
+} 
+function locinab() {
+    let home = document.getElementById("home");
+    location.href = "about.html";
+
+} 
+  function terh(phon) {
+let imga = document.getElementById("imga");
+imga.src = phon;
+   
+}          
+
+
+
+
+
+
+          let div = document.getElementById("im");
+let divv = document.getElementById("vim");
+let bod = document.querySelector("body");
+let asi = document.querySelector("aside");
+ let gartd = document.querySelectorAll("#gartd"); 
+div.addEventListener("click", function() {
+ divv.classList.toggle("imm")
+ bod.classList.toggle("bcerw")
+ asi.classList.toggle("bacer")
+
+ gartd.forEach(gartd => {
+   gartd.classList.toggle("gardett")
+})
+
+
+})
+
+           
+           
+  function gff() {
+     let data = new Date();
+     let hawr = data.getHours();
+     let mints = data.getMinutes();
+     let sacen = data.getSeconds();
+    let day = data.getMonth();
+    let ssd ="🌜 Evening 🌛";
+     let dod = document.getElementById("bod");
+let sp = document.getElementById("sp");     
+     if(hawr == 0) {
+        hawr = 12 
+     }
+     if(hawr > 12) {
+       hawr = hawr - 12  
+      
+
+ 
+     }
+     
+        
+     
+    if(hawr < 12) { 
+//sp.style.backgroundImage =//"linear-gradient(#f8ff80,#fffc15)";
+sp.style.color ="#606969";
+  
+  ssd = "🌜 Evening 🌛";
+     }
+     if(mints < 10) {
+         mints = "0" + mints
+     }
+     if(sacen < 10) {
+         sacen = "0" + sacen
+     }
+document.getElementById("ssp").innerText =
+`${hawr} : ${mints}` ;
+
+   
+   document.getElementById("spp").innerText = sacen;
+   document.getElementById("amm").innerText = ssd; 
+
+
+   
+ }
+ setInterval(function() {
+    gff()
+},1000)
+  
+
+
+ 
+ 
+          
+          function nave() {
+  let uuu = document.getElementById("uu");
+let mm = document.getElementById("mm");
+let uu = document.querySelector("aside");
+
+
+uuu.addEventListener("click", function() {
+  uu.classList.toggle("okkk")
+   uuu.classList.toggle("ritt")
+   mm.classList.toggle("col")
+})   
+ 
+ let minuo = document.getElementById("minuo");
+minuo.addEventListener("click", function() {
+  uu.classList.toggle("okkk")
+   uuu.classList.toggle("ritt")
+   mm.classList.toggle("col")
+})   
+} 
+
+
+           function styj() {
+ let fi = document.getElementById("fi");
+  let bod = document.getElementById("bod");
+  bod.style.backgroundImage = fi.value;  
+  bod.style.backgroundSize = "100% 100%";
+ bod.style.backgroundRepeat = "no-repeat";
+}
+
+           
+ nave()  
+          
+
+        </script>
+    </body>
